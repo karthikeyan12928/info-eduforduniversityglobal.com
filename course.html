@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+<!-- ------------------------Courses-------------------------- -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We are the most reputed service providers for a wide array of Education Courses and Training Programmes for students and professionals. These services have been widely acclaimed for their reliability and credibility. Also, our services have been tailored to offer career-oriented courses and and training programmes. Our vocational courses are known to equip our students with the best of industry knowledge from experienced and talented professionals.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Phd</h3>
+            <p>PhDs Computer Science.
+                PhDs Biology.
+                PhDs Mental Healthcare.
+                PhDs Psychology.
+                PhDs Physics.
+                PhDs Theology.
+                PhDs Mechanical Engineering.
+                PhDs Economics.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>BBA.
+                Engineering – BE, B. Tech and B. Arch.
+                Computer Application-BCA.
+                Designing – Fashion/Interior/Web.
+                Mass-Communication/Journalism BJMC.
+                Hospitality (Hotel) – Hotel Management.
+                Medical-BDS and MBBS.
+                Finance -B.Com/CA.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Masters of Arts: ...
+                Master's of Science. ...
+                Master of Research(MRes) ...
+                4.Master by Research(MPhil) ...
+                Master of Business Administration (MBA) ...
+                Master of Library Science. ...
+                Master of Architecture. ...
+                Master of Computer Application</p>
+        </div>
+    </div>
+    
+    </section>
+
+
+<!-- ---------------------------facilities--------------------- -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our commitment to excellence extends to the facilities we provide on campus. The infrastructure, sports arenas, music room, transport arrangements, library, laboratories, medical facilities are all designed to be a part of the green surroundings. Eduford is a well-designed campus which offers all the modern facilities that are needed to provide the students a safe, secure and happy learning environment.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>World Class library</h3>
+            <p>LThe school library is a place where knowledge, inspiration, imagination and creativity are nurtured.
+                Academic support books, Non-Fiction and Fiction books are the hallmark of our library. Books by Ruskin Bond, Agatha Christie, Paolo Coelho, and many more authors as well as poets are all available for the reading pleasure of the students. A full time librarian helps the students choose age-appropriate literature and the comfortable chairs, cushions and sofas create an inviting ambience.
+                We ensure that every child spends some time here every day.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>Play Ground</h3>
+            <p>The opportunity to play and play well is what we provide for at eduford. Sports are as important for the all-round development of a child as are academics. Sports inculcate a sense of responsibility, encourage team spirit, develop discipline and help the child learn to deal with success and failure equally.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth. Different species of animals have different feeding behaviours that satisfy the needs of their unique metabolisms, often evolved to fill a specific ecological niche within specific geographical contexts.</p>
+        </div>
+    </div>
+    
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------FOOTER---------------------- -->
+
+<section class="footer">
+<h4>About Us</h4>
+<p>EDUFORD UNIVERSITY,LONDON,UNITED KINGDOM</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> BY CODE WITH KARTHIK</p>
+
+</section>
+
+
+   
+
+    <!----------javascript for toggle menu-------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>  
